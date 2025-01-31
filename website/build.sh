@@ -11,7 +11,7 @@ ZIP_URL="https://github.com/zeroby0/AdaptDCT/archive/refs/heads/main.zip"
 ZIP_FILE="dist/AdaptDCT.zip"
 
 echo "Downloading ZIP file..."
-# curl -L -o "$ZIP_FILE" "$ZIP_URL"
+curl -L -o "$ZIP_FILE" "$ZIP_URL"
 
 cp website/website.html dist/index.html
 
