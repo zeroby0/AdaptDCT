@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+<!-- Who this sneaky trying to read my source code??? -->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -58,6 +59,10 @@
                 font-size: 1.5rem;
             }
         }
+        a:hover, a:visited, a:link, a:active
+        {
+            text-decoration: none;
+        }
     </style>
 </head>
 <body>
@@ -78,15 +83,7 @@
             <p>The code is provided as-is and has been anonymized to maintain the double-blind review process. All identifying information has been removed from comments and documentation.</p>
         </div>
 
-        <button class="download-btn" onclick="downloadCode()">Download Source Code</button>
+        <a class="download-btn" href="AdaptDCT.zip" download>Download Source Code</a>
     </div>
-
-    <script>
-        function downloadCode() {
-            // In a real implementation, this would trigger the actual download
-            // Here we just show an alert as a placeholder
-            alert('Download started: adaptdct-anonymous.zip\n\nNote: In a real implementation, this would initiate the actual file download.');
-        }
-    </script>
 </body>
 </html>
