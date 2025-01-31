@@ -108,13 +108,6 @@ def make_dataset(indices: list, channel = 'l'):
 
 
 if __name__ == '__main__':
-    # all_x, all_y1, all_y2 = make_dataset(
-    #     [
-    #         Path(f"/home/iiitb/varprism-oct24/dataset/ccrop_split_dscale_1024/{i}/l")
-    #         for i in range(1, 840)
-    #     ]
-    # )
-
     all_x, all_y1, all_y2 = make_dataset(range(1, 200))
 
     print(tf.reshape(all_y2,[-1]).shape)
