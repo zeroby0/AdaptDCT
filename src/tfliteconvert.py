@@ -21,21 +21,21 @@ import numpy as np
 
 train_x, train_y1, train_y2 = make_dataset(
     [
-        Path(f"/home/iiitb/varprism-oct24/dataset/ccrop_split_dscale_1024/{i}/l")
+        Path(f"dataset/ccrop_split_dscale_1024/{i}/l")
         for i in range(1, 600)
     ]
 )
 
 valid_x, valid_y1, valid_y2 = make_dataset(
     [
-        Path(f"/home/iiitb/varprism-oct24/dataset/ccrop_split_dscale_1024/{i}/l")
+        Path(f"dataset/ccrop_split_dscale_1024/{i}/l")
         for i in range(600, 700)
     ]
 )
 
 test_x, test_y1, test_y2 = make_dataset(
     [
-        Path(f"/home/iiitb/varprism-oct24/dataset/ccrop_split_dscale_1024/{i}/l")
+        Path(f"dataset/ccrop_split_dscale_1024/{i}/l")
         for i in range(700, 840)
     ]
 )
